@@ -99,7 +99,6 @@ if (array_key_exists('provider', $_POST)) {
     $clientSecret = $_SESSION['clientSecret'];
     $tenantId = $_SESSION['tenantId'];
 }
-
 //If you don't want to use the built-in form, set your client id and secret here
 //$clientId = 'RANDOMCHARS-----duv1n2.apps.googleusercontent.com';
 //$clientSecret = 'RANDOMCHARS-----lGyjPcRtvP';
